@@ -1,0 +1,60 @@
+body {
+  background-color: #B1DFEA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+#logo {
+  width: 50%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+#yt-preview {
+  width: 300px;
+  height: 650px;
+  margin-bottom: 48px;
+}
+
+#download-apk-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 36px;
+  padding: 24px;
+  border-radius: 12px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #C77429;
+  background-color: #FFAD33;
+  box-shadow: 0px 6px 0px #C77429;
+  text-decoration: none;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin-bottom: 24px;
+}
+
+#download-apk-button:hover {
+  transform: scale(1.1);
+}
+
+#download-apk-button p {
+  margin: 0px;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+#android-icon {
+  width: 36px;
+  height: 36px;
+  margin-left: 6px;
+}
