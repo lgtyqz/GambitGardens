@@ -1,5 +1,10 @@
 body {
-  background-color: #B1DFEA;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./assets/images/Library\ Hero.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,12 +17,19 @@ body {
   width: 50%;
 }
 
+h2,
 h1 {
-  font-size: 48px;
+  paint-order: stroke;
+  color: #ffffff;
+  -webkit-text-stroke: 4px #2a2a2a;
+}
+
+h1 {
+  font-size: 36px;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 24px;
 }
 
 #yt-preview {
@@ -26,35 +38,40 @@ h2 {
   margin-bottom: 48px;
 }
 
-#download-apk-button {
+.button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 36px;
+  font-size: 24px;
   padding: 24px;
   border-radius: 12px;
   border-width: 6px;
   border-style: solid;
-  border-color: #C77429;
-  background-color: #FFAD33;
-  box-shadow: 0px 6px 0px #C77429;
+  border-color: #c77429;
+  background-color: #ffad33;
+  box-shadow: 0px 6px 0px #c77429;
   text-decoration: none;
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   margin-bottom: 24px;
 }
 
-#download-apk-button:hover {
+.button:hover {
   transform: scale(1.1);
 }
 
-#download-apk-button p {
+.button p {
   margin: 0px;
   font-style: normal;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #android-icon {
   width: 36px;
   height: 36px;
   margin-left: 6px;
+}
+
+p.tagline {
+  max-width: 65vw;
+  font-size: 18px;
 }
